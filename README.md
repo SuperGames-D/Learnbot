@@ -1,6 +1,7 @@
-# Learnbot
+# Learnbot <img src="learnbot-logo.png" width="30px">
 Learnbot is a simple AI bot that learns entirely from user input. It allows you to teach it new information by entering text, and then it can respond to questions based on what it has learned.
 
+ 
 
 ## Getting Started
 Visit [the Learnbot website](https://supergames-d.github.io/learnbot) to chat with Learnbot.
