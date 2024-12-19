@@ -1,25 +1,40 @@
 # Learnbot
-A simple AI bot that learns entirely from user input.
+Learnbot is a simple AI bot that learns entirely from user input. It allows you to teach it new information by entering text, and then it can respond to questions based on what it has learned.
 
 
-## Use Learnbot
+## Getting Started
 Visit [the Learnbot website](https://supergames-d.github.io/learnbot) to chat with Learnbot.
-However, this AI is not trained, and you have to teach it yourself. So, you can enter any text in the `Teach` box. You should enter multiple sentences with information.
+Note that this AI is not pre-trained, so you will need to teach it yourself.
 
-For example, you can enter the text bellow:
+### Teaching Learnbot
+
+To teach Learnbot, enter text in the Teach box. You should provide multiple sentences with information to help Learnbot understand better. For example:
 ```
 Learnbot is a simple AI bot.
 SuperGames- is a developer.
 ```
+### Asking Questions
+After teaching Learnbot, you can ask questions such as:
+- `Who is SuperGames-D?`
+- `What is Learnbot?`
 
-After that, you can ask questions about it, such as `Who is SuperGames-?` or `What is Learnbot?`. Learnbot will always reply using the same sentences given (This is being worked on).
+Learnbot will respond using the exact information you provided.
 
 Feel free to experiment with many different prompts!
 
 ## Models
-As Learnbot was improved, new models were created. Opening the Learnbot website will (probably) open the most recent one. You can add `?model=` and a model at the end of the url to choose a different one. For instance, `?model=v01` will use the first version of Learnbot.
+As Learnbot has been improved, new models have been created. By default, opening the Learnbot website will load the most recent model. You can specify a different model by adding `?model=` followed by the model name to the URL.
+For instance, `?model=v01` will use the first version of Learnbot.
 
 ## Experimental features
-- You can say `/learn [text]` to automatically teach the bot.
-- The command `/learn math` can also be used to give Learnbot the ability to do simple math. You can ask questions such as `2+2` (number only go up to 100).
-- Synonyms: certain words are changed to their synonyms.
+Learnbot includes several experimental features:
+- **Dynamic Learning**: Use the `/learn [text]` command to teach Learnbot new information directly in chat.
+- **Basic Math**: Activate math mode using `/learn math`. This allows Learnbot to perform simple calculations (up to 100). For example:
+  ```
+  Q: What is 2+2?
+  A: 2+2 is 4.
+  ```
+- **Synonym Replacement**: Learnbot replaces certain words with their synonyms to improve variability in responses.
+
+## Contributions
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
