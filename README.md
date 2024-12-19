@@ -4,7 +4,7 @@ Learnbot is a simple AI bot that learns entirely from user input. It allows you 
  
 
 ## Getting Started
-Visit [the Learnbot website](https://supergames-d.github.io/learnbot) to chat with Learnbot.
+Visit [the Learnbot website](https://supergames-d.github.io/Learnbot) to chat with Learnbot.
 Note that this AI is not pre-trained, so you will need to teach it yourself.
 
 ### Teaching Learnbot
