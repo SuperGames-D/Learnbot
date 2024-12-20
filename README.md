@@ -9,7 +9,7 @@ Note that this AI is not pre-trained, so you will need to teach it yourself.
 
 ### Teaching Learnbot
 
-To teach Learnbot, enter text in the Teach box. You should provide multiple sentences with information to help Learnbot understand better. For example:
+To teach Learnbot, enter text in the `Teach` box. You should provide multiple sentences with information to help Learnbot understand better. For example:
 ```
 Learnbot is a simple AI bot.
 SuperGames- is a developer.
@@ -36,6 +36,7 @@ Learnbot includes several experimental features:
   A: 2+2 is 4.
   ```
 - **Synonym Replacement**: Learnbot replaces certain words with their synonyms to improve variability in responses.
+- **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the `Teach` database.
 
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
