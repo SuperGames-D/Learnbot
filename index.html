@@ -28,16 +28,16 @@
     <div style="text-align: center;">
         <p style="font-size: 20px; padding: 2px; width: 40%; margin: 0 auto; text-align: left; padding-bottom: 100px"
             id="conversation"></p>
-        <form style="position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);" onsubmit="askQuestion()"
+        <form style="position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);" onsubmit="askQuestion()" id="form"
             autocomplete="off">
             <input id="input"
                 style="font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white; width: 500px; border: 0px"
                 placeholder="Message">
-            <button type="submit"
+            <button type="submit" id="submit"
                 style="border: 0px; font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white">Send</button>
             <br><br><br>
         </form>
-        <p style="position: fixed; left: 40px; top: 50%; transform: translateY(-30%); height: 50%; width: 10%">
+        <p style="position: fixed; left: 40px; top: 50%; transform: translateY(-30%); height: 50%; width: 10%" id="teachArea">
 
             <text style="font-size: 20px">Teach:</text>
             <textarea id="teach" onkeyup="changeDatabase()"
@@ -48,7 +48,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v06"
+            model = "v061"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 
