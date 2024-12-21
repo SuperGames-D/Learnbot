@@ -16,7 +16,7 @@ const synonyms = {
     "weak": ["frail", "feeble"],
     "beautiful": ["attractive", "lovely"],
     "ugly": ["unattractive", "hideous"],
-    "quick": ["fast", "swift"],
+    "quick": ["fast", "rapid"],
     "slow": ["sluggish", "lethargic"],
     "funny": ["amusing", "humorous"],
     "boring": ["dull", "tedious"],
