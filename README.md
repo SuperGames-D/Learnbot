@@ -27,8 +27,8 @@ Feel free to experiment with many different prompts!
 As Learnbot has been improved, new models have been created. By default, opening the Learnbot website will load the most recent model. You can specify a different model by adding `?model=` followed by the model name to the URL.
 For instance, `?model=v01` will use the first version of Learnbot.
 
-## Experimental features
-Learnbot includes several experimental features:
+## Advanced features
+Learnbot includes several advanced features:
 - **Dynamic Learning**: Use the `/learn [text]` command to teach Learnbot new information directly in chat.
 - **Basic Math**: Activate math mode using `/learn math`. This allows Learnbot to perform simple calculations (up to 100). For example:
   ```
@@ -37,6 +37,7 @@ Learnbot includes several experimental features:
   ```
 - **Synonym Replacement**: Learnbot replaces certain words with their synonyms to improve variability in responses.
 - **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the `Teach` database.
+- **Context awareness**: Words in the database inside square brackets `[ ]` will be used by Learnbot to understand the context but will not appear in the response.
 
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
