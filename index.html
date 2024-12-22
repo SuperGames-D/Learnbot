@@ -9,7 +9,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             color: white;
-            background-color: #212121
+            background-color: #212121;
         }
         .responseButton {
             font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +17,10 @@
             background-color: #212121;
             border: none;
             margin: 3px;
+            padding: 5px;
+        }
+        .responseButton:hover {
+            background-color: #777777;
         }
     </style>
 </head>
@@ -49,7 +53,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v064"
+            model = "v07"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 
