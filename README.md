@@ -11,13 +11,13 @@ Note that this AI is not pre-trained, so you will need to teach it yourself.
 
 To teach Learnbot, enter text in the `Teach` box. You should provide multiple sentences with information to help Learnbot understand better. For example:
 ```
-Learnbot is a simple AI bot.
-SuperGames- is a developer.
+The sun is a star.
+A cat is an animal.
 ```
 ### Asking Questions
 After teaching Learnbot, you can ask questions such as:
-- `Who is SuperGames-D?`
-- `What is Learnbot?`
+- `What is the sun?`
+- `What is a cat?`
 
 Learnbot will respond using the exact information you provided.
 
@@ -30,12 +30,7 @@ For instance, `?model=v01` will use the first version of Learnbot.
 ## Advanced features
 Learnbot includes several advanced features:
 - **Dynamic Learning**: Use the `/learn [text]` command to teach Learnbot new information directly in chat.
-- **Basic Math**: Activate math mode using `/learn math`. This allows Learnbot to perform simple calculations (up to 100). For example:
-  ```
-  Q: What is 2+2?
-  A: 2+2 is 4.
-  ```
-- **Synonym Replacement**: Learnbot replaces certain words with their synonyms to improve variability in responses.
+- **Multi-sentence answers**: Learnbot can provide answers composed of multiple sentences when possible.
 - **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the `Teach` database.
 - **Context awareness**: Words in the database inside square brackets `[ ]` will be used by Learnbot to understand the context but will not appear in the response.
 
