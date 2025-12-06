@@ -103,6 +103,7 @@
         .btn_pre_trained_current:hover {
             background-color: #777777;
         }
+        
 
     </style>
 </head>
@@ -124,21 +125,20 @@
                 style="border: 0px; font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white">Send</button>
             <br><br><br>
         </form>
-        <p style="position: fixed; left: 40px; bottom: 120px; transform: translateY(0px); height: 50%; width: 10%"
+        <p style="position: fixed; left: 40px; bottom: 120px; transform: translateY(0px); height: 50%; width: 20%; text-align: left"
             id="teachArea">
 
-            <text style="font-size: 20px">Teach:</text>
+            <text style="font-size: 20px; width: 50%; padding-left: 15%">Teach:</text><br>
             <textarea id="teach" onkeyup="changeDatabase()"
-                style="font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white; resize: none; width: 100%; height: 100%"></textarea>
-        </p>
+                style="font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white; resize: none; width: 50%; height: 100%;"></textarea>
+        <br>
+            </p>
     </div>
 
     <div id="infoBox" class="infoBox">
         <div class="infoBoxContent">
         <button class="close" id="close">&times;</button>
-            <h2 id="infoTitle">
-                Select a pre-trained model
-            </h2>
+            <h2 id="infoTitle"></h2>
             <p id="pre_trained_list"></p>
 
         </div>
@@ -150,7 +150,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v082"
+            model = "v083"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 
