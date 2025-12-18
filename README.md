@@ -33,6 +33,7 @@ Learnbot includes several advanced features:
 - **Multi-sentence answers**: Learnbot can provide answers composed of multiple sentences when possible.
 - **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the `Teach` database.
 - **Context awareness**: Words in the database inside square brackets `[ ]` will be used by Learnbot to understand the context but will not appear in the response.
+- **Math**: If you ask Learnbot to calculate a basic mathematical operation, it will do it in real time.
 
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.

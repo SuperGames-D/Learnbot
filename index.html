@@ -52,11 +52,16 @@
 
         .infoBoxContent {
             background-color: #212121;
+            position: absolute;
             margin: 15% auto;
             padding: 20px;
             border: 1px solid #888;
             width: 500px;
             text-align: center;
+            left: 50%;
+            top: 50%; 
+            margin-left: -250px;
+            margin-top: -250px;
         }
 
         .close {
@@ -150,7 +155,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v083"
+            model = "v084"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 
