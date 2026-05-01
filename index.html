@@ -109,12 +109,13 @@
             background-color: #777777;
         }
         
+        
 
     </style>
 </head>
 
 <body>
-    <div style="position: fixed; left: 5px; top: 10px; transform: translateY(0%);">
+    <div style="position: fixed; left: 5px; top: 10px; transform: translateY(0%);" id="logo">
         <img src="learnbot-logo.png" width="50px">
         <b style="font-size: 40px" id="title">Learnbot</b>
     </div>
@@ -155,7 +156,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v086"
+            model = "v087"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 
