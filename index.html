@@ -134,7 +134,7 @@
         <p style="position: fixed; left: 40px; bottom: 120px; transform: translateY(0px); height: 50%; width: 20%; text-align: left"
             id="teachArea">
 
-            <text style="font-size: 20px; width: 50%; padding-left: 15%">Teach:</text><br>
+            <text style="font-size: 20px; width: 50%; padding-left: 15%">Database</text><br>
             <textarea id="teach" onkeyup="changeDatabase()"
                 style="font-size: 20px; background-color: #2f2f2f; padding: 10px; border-radius: 10px; color: white; resize: none; width: 50%; height: 100%;"></textarea>
         <br>
@@ -156,7 +156,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         let model = urlParams.get('model');
         if (model == null) {
-            model = "v087"
+            model = "v088"
         }
         const scriptSrc = `scripts/learnbot-${model}.js`
 

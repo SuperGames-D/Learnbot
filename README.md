@@ -10,7 +10,7 @@ However, you can select an example model from a list of pre-trained models to tr
 
 ### Teaching Learnbot
 
-To teach Learnbot, enter text in the `Teach` box. You should write multiple sentences. For example:
+To teach Learnbot, enter text in the `Database` box. You should write multiple sentences. For example:
 ```
 The sun is a star.
 A cat is an animal.
@@ -30,7 +30,7 @@ For instance, `?model=v01` will use the first version of Learnbot.
 Learnbot includes several advanced features:
 - **Smart Mode**: It allows Learnbot to generate text that isn't quoted exactly from its training data, although it can include incorrect information. Click the `+` icon next to the input box to activate it.
 - **Math**: If you ask Learnbot to calculate a basic mathematical operation, it will do it in real time.
-- **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the `Teach` database.
+- **Feedback System**: You can like or dislike Learnbot's responses to prioritize or correct certain answers in the database.
 - **Context awareness**: Words in the database inside square brackets `[ ]` will be used by Learnbot to understand the context but will not appear in the response.
 
 ## Contributions
